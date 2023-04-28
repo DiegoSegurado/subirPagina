@@ -1,0 +1,19 @@
+.texto {
+    font-size: 0.8em;
+    
+}
+.textogris {
+    font-size: 0.7rem;
+    color: rgb(112, 112, 112);
+}
+.botonEnviar {
+    background-color:rgb(150, 201, 62);
+    color:white
+}
+.colorFooter {
+    background-color: rgb(31, 77, 103);
+    color: white;
+}
+.carousel-item img {
+    filter: brightness(50%);
+}
