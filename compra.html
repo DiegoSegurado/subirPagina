@@ -14,16 +14,20 @@
     
 </head>
 <body>
-    <div class="col text-white bg-dark bg-gradient p-4">
-        <img src="imagenes/codoacodo.png" alt="codo" width="90">
-        <span class="fs-5">Conf BsAs</span>
-    </div>
+       
+        <div class="row bg-dark bg-gradient p-4 m-0">
+            <div class="col">
+                <img src="imagenes/codoacodo.png" alt="codo" width="90">
+                <span class="fs-5 text-white">Conf BsAs</span>
+            </div>
+            <div class="col text-end">
+            <a class="btn btn-sm btn-primary" href="index.html">Volver</a>
+            </div>
+        </div>
+        
 
-
-
-
-    <div class="fondo p-5 ">
-        <div class="fs-1 fw-bolder text-center text-light pb-5" id="titulo">Comprar entradas</div>
+    <div class=" fondo p-5">
+        <div class="fs-1 fw-bolder text-center text-light pb-5" id="titulo">Comprar Entradas</div>
         <form action="#" method="post">
             <div class="row mx-5">
                 <div class="col-md mb-3">
@@ -51,9 +55,9 @@
                 </div>
                 <div class="col-md mb-3 text-white">
                     <select class="form-select bg-secondary bg-gradient bg-opacity-75" id="porcDescuento" onchange="calcularPrecioTotal()">
-                        <option value="10">Particular</option>
-                        <option value="30">Estudiante</option>
-                        <option value="50">Orador</option>
+                        <option value="10">Particular 10% off</option>
+                        <option value="30">Estudiante 30% off</option>
+                        <option value="50">Orador 50% off</option>
                     </select>
                 </div>
                 <div class="col-md mb-3">
@@ -69,7 +73,7 @@
             </div>
         </form>
     </div>
-    
+
     
 
 
