@@ -1,5 +1,5 @@
 .texto {
-    font-size: 0.8em;
+    font-size: 0.7rem;
     
 }
 .textogris {
@@ -16,4 +16,9 @@
 }
 .carousel-item img {
     filter: brightness(50%);
+}
+
+.fondo {
+    background-image: url(imagenes/bsas3.png);
+    
 }
